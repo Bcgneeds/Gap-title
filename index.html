@@ -49,7 +49,7 @@
             <div class="icon p-2 me-2">
                 <!-- <img class="img-fluid" src="img/icon-deal.pn" alt="Icon" style="width: 30px; height: 30px;"> -->
             </div>
-            <h1 class="m-0 text-dark">GapTitle</h1>
+            <h1 class="m-0 text-dark" style="font-family: Heebo, sans-serif; font-size: 35px;">GapTitle</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -105,12 +105,97 @@
         <div class="container-fluid header p-0" style="background-color: rgba(0,0,0,0.9);">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-6 animated fadeIn mb-4" style="color:white; font-size: 20px;">
-                    REAL ESTATE <span style="color:white;">|</span> TITLE <span style="color:white;">|</span> PERSONAL PROPERTIES
-                    </h1>
-                            <p class="animated fadeIn mb-4 pb-2" style="color:white;">
-                          Find a perfect home and properties you need.</p>
                     <style>
+                            .navbar-custom {
+                              display: flex;
+                              justify-content: center;
+                              gap: 10px;
+                              align-items: center;
+                            }
+
+                            .navbar-custom .dropdown {
+                              position: relative;
+                              display: inline-block;
+                            }
+
+                            .navbar-custom .dropbtn {
+                              background: none;
+                              border: none;
+                              color: white;
+                              font-size: 20px;
+                              font-weight: bold;
+                              cursor: pointer;
+                              display: flex;
+                              align-items: center;
+                              gap: 5px;
+                            }
+
+                            .navbar-custom .dropbtn:hover {
+                              text-decoration: none;
+                            }
+
+                            .navbar-custom .dropdown-content {
+                              display: none;
+                              position: absolute;
+                              background-color: none;
+                              min-width: 160px;
+                              box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+                              z-index: 1;
+                              border-radius: 5px;
+                            }
+
+                            .navbar-custom .dropdown-content a {
+                              color: white;
+                              padding: 10px 14px;
+                              font-family: Heebo, sans-serif;
+                              font-size: 15px;
+                              text-decoration: none;
+                              display: block;
+                            }
+
+                            .navbar-custom .dropdown-content a:hover {
+                              background-color: none;
+                            }
+
+                            .navbar-custom .dropdown:hover .dropdown-content {
+                              display: block;
+                            }
+
+                            .separator {
+                              color: white;
+                              margin: 0 8px;
+                            }
+                            </style>
+
+                            <h1 class="display-6 animated fadeIn mb-4" style="color:white; font-size: 20px; font-family: Heebo, sans-serif;">
+                              <div class="navbar-custom">
+                                <div class="dropdown">
+                                  <button class="dropbtn">REAL ESTATE <span>▼</span></button>
+                                  <div class="dropdown-content">
+                                    <a href="#">Advisory</a>
+                                    <a href="#">Sales</a>
+                                    <a href="#">Management</a>
+                                  </div>
+                                </div>
+                                <span class="separator">|</span>
+                                <div class="dropdown">
+                                  <button class="dropbtn">TITLE <span>▼</span></button>
+                                  <div class="dropdown-content">
+                                    <a href="#">Search</a>
+                                    <a href="#">Warranty</a>
+                                  </div>
+                                </div>
+                                <span class="separator">|</span>
+                                <div class="dropdown">
+                                  <button class="dropbtn">PERSONAL PROPERTY <span>▼</span></button>
+                                  <div class="dropdown-content">
+                                   <!--  <a href="#">Property</a> -->
+                                  </div>
+                                </div>
+                              </div>
+                            </h1>
+                                                
+                <!--     <style>
          .btn-black {
                     background-color: #fff !important;   /* white background */
                     color: #000 !important;              /* black text */
@@ -124,7 +209,7 @@
                 }
                 </style>
 
-<a href="index.html" class="btn btn-black py-2 px-4 me-3 animated fadeIn">Get Started</a>
+<a href="index.html" class="btn btn-black py-2 px-4 me-3 animated fadeIn">Get Started</a> -->
                 </div>
                 <div class="col-md-6 animated fadeIn">
                     <div class="owl-carousel header-carousel">
@@ -402,7 +487,7 @@
                         <h5 class="text-white mb-4">Get In Touch</h5>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Address here</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+Phone Number</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>Gaptaitle@gmail.com</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>Gaptitle@gmail.com</p>
                         <div class="d-flex pt-2">
                             <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -454,7 +539,7 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">Gap Title 2025</a>, All Right Reserved. 
+                            &copy; <a class="border-bottom" href="#">GapTitle 2025</a>, All Right Reserved. 
 							
 							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
 							
