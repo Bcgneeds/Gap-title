@@ -44,12 +44,12 @@
 
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-black">
-    <nav class="navbar navbar-expand-lg navbar-dark py-0 px-4" style="background-color: black;">
+    <nav class="navbar navbar-expand-lg navbar-dark py-0 px-4" style="background-color: white;">
         <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
             <div class="icon p-2 me-2">
                 <!-- <img class="img-fluid" src="img/icon-deal.pn" alt="Icon" style="width: 30px; height: 30px;"> -->
             </div>
-            <h1 class="m-0 text-white">Gap Title</h1>
+            <h1 class="m-0 text-dark">Gap Title</h1>
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -80,7 +80,7 @@
 <!-- Custom CSS -->
 <style>
     .navbar-nav .nav-link {
-        color: white !important;
+        color: black !important;
     }
 
     .navbar-nav .nav-link.active,
@@ -102,24 +102,29 @@
 
 
         <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
+        <div class="container-fluid header p-0" style="background-color: rgba(0,0,0,0.9);">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-6 animated fadeIn mb-4">REAL ESTATE <span class="text-danger">|</span> TITLE SERVICES</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Find a perfect home and properties you need.</p>
+                    <h1 class="display-6 animated fadeIn mb-4" style="color:white; font-size: 25px;">
+                    REAL ESTATE <span style="color:white;">|</span> TITLE SERVICES <span style="color:white;">|</span> PERSONAL PROPERTIES
+                    </h1>
+                            <p class="animated fadeIn mb-4 pb-2" style="color:white;">
+                          Find a perfect home and properties you need.</p>
                     <style>
-    .btn-black {
-        background-color: #000 !important; /* pure black */
-        color: #fff !important; /* white text */
-        border: none !important;
-        transition: background-color 0.3s ease;
-    }
-    .btn-black:hover {
-        background-color: #222 !important; /* slightly lighter black on hover */
-    }
-</style>
+         .btn-black {
+                    background-color: #fff !important;   /* white background */
+                    color: #000 !important;              /* black text */
+                    border: 1px solid #000 !important;   /* optional thin black border */
+                    transition: all 0.3s ease;
+                }
 
-<a href="" class="btn btn-black py-2 px-6 me-3 animated fadeIn">Get Started</a>
+                .btn-black:hover {
+                    background-color: #222 !important;   /* dark background on hover */
+                    color: #fff !important;              /* white text on hover */
+                }
+                </style>
+
+<a href="index.html" class="btn btn-black py-2 px-4 me-3 animated fadeIn">Get Started</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
                     <div class="owl-carousel header-carousel">

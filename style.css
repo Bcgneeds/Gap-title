@@ -191,8 +191,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
-    background: var(--dark);
+    color: #222;
+    background: var(--light);
     border-radius: 40px;
     font-size: 20px;
     transition: .5s;
